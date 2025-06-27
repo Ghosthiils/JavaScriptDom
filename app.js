@@ -22,6 +22,6 @@ function fnModofesta() {
 
 let fotosbanner = ['banner.jpg' , 'banner2.webp' , 'banner3.jpg']
 
-function FotoAtual() {
-    document.getElementById
+function fnbanner(bannerEscolhido) {
+    document.querySelector("#banner").src = fotosbanner[bannerEscolhido]
 }
